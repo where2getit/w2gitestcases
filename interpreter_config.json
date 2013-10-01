@@ -1,0 +1,23 @@
+{
+"type":"interpreter-config",
+"configurations":[
+{
+"settings": [
+{
+"driverOptions" "{
+"host": "ondemand.saucelabs.com",
+"port": 80
+},
+"browserOptions":{
+"browserName":"firefox",
+"username":"dhirajshinde2008",
+"accessKey":"e08bdbb0-7ef9-4c64-891a-cdac32670f2f"
+}
+}
+],
+"scripts":[
+"w2gitestcases/*"
+]
+}
+]
+}
