@@ -1,0 +1,10 @@
+language: node_js
+before_script:
+     - "npm install -g se-interpreter"
+script:
+     - "se-interpreter w2gitestcases/interpreter_config.json"
+
+env:
+    global:
+    - SAUCE_USERNAME=dhirajshinde2008
+    - secure: "QBjmPKcK/PqhQDrH0NsMl1LBYPZPrLGv/AmqiYOhl6GaTEq6gfT2IFBSdPFkJQIbEmhX5V8hSw7mIqLav6OyvyCuiwl5+10G4Y7xbDDSfoVA7f3Uoj79Y9zInmmdaf/CwdlybtWMSYBal1J8S2GpmmdIrS8F1rp0r+mztufrKb8="
